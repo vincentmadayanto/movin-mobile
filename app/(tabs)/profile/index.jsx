@@ -1,11 +1,7 @@
-import { View, Text } from "react-native";
+import Profile from "../../../src/components/profile/Profile";
 
 const ProfileScreen = () => {
-  return (
-    <View>
-      <Text>ProfileScreen</Text>
-    </View>
-  );
+  return <Profile />;
 };
 
 export default ProfileScreen;

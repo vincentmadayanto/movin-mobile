@@ -1,11 +1,7 @@
-import { View, Text } from "react-native";
+import { Slot } from "expo-router";
 
 const ProfileLayout = () => {
-  return (
-    <View>
-      <Text>ProfileLayout</Text>
-    </View>
-  );
+  return <Slot />;
 };
 
 export default ProfileLayout;
